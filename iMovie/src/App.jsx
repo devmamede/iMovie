@@ -6,7 +6,6 @@ function App() {
   return (
     <div>
       <Navbar />
-      <h2>iMovie</h2>
       <Outlet />
     </div>
   );
