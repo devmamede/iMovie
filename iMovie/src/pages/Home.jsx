@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import MovieCard from "../components/MovieCard";
+import SearchBar from "../components/Searchbar";
+
 import "./MovieGrid.css";
 
 const moviesURL = import.meta.env.VITE_API;
@@ -29,6 +31,23 @@ const Home = () => {
         {topMovies.length > 0 &&
           topMovies.map((movie) => <MovieCard key={movie.id} movie={movie} />)}
       </div>
+      <footer>
+        <h2>Não encontrou o título que procurava?</h2>
+        <SearchBar />
+
+        <h3 className="authorship">
+          Developed by{" "}
+          <span>
+            <a
+              href="https://www.linkedin.com/in/isac-mamede/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              @dev.mamede
+            </a>
+          </span>
+        </h3>
+      </footer>
     </div>
   );
 };
