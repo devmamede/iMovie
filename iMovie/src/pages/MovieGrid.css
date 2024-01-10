@@ -66,3 +66,57 @@ footer {
 .authorship span {
   color: #ffd700;
 }
+
+@media only screen and (max-width: 480px) {
+  .container .title {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+  }
+
+  .movies-container {
+    margin: 0.5 0 2rem;
+    height: 30vh;
+    padding: 0rem;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    white-space: nowrap;
+  }
+
+  .movies-container div {
+    background-color: transparent;
+    margin: 0 5px;
+    height: 30vh;
+    border-radius: 20px;
+    padding: 0;
+  }
+
+  .movies-container div img {
+    max-width: 100px;
+    height: 10rem;
+    margin: 0;
+  }
+
+  .movies-container div a {
+    background-color: #ffd700;
+    border: 2px solid #ffd700;
+    border-radius: 4px;
+    padding: 0.2rem;
+    color: black;
+    font-size: 16px;
+    transition: 0.4s;
+    font-weight: bold;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 10rem;
+  }
+
+  .authorship {
+    margin-top: 1.5rem;
+  }
+}

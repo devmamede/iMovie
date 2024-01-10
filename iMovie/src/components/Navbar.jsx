@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav id="navbar">
       <h2>
-        <Link to="/">
+        <Link to="/iMovie">
           <BiCameraMovie />
           iMovie
         </Link>

@@ -23,3 +23,22 @@
 .movie-card p {
   font-size: 1.3rem;
 }
+
+@media only screen and (max-width: 480px) {
+  .movie-card {
+    max-width: 100px;
+  }
+
+  .movie-card h2 {
+    width: 100px;
+    font-size: 15px;
+  }
+
+  .movie-card img {
+    border-radius: 20px;
+  }
+
+  .movie-card p {
+    font-size: 1rem;
+  }
+}
