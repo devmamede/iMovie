@@ -55,3 +55,38 @@
 .description {
   padding-bottom: 10rem;
 }
+
+@media only screen and (max-width: 768px) {
+  .moviePage {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 100vw;
+    padding: 2rem 1rem;
+  }
+
+  .moviePage .movie-card h2 {
+    width: auto;
+    height: 5rem;
+    font-size: auto;
+  }
+
+  .moviePage .description {
+    padding-bottom: 0;
+  }
+
+  .moviePage .movie-card h2 {
+    font-size: 1.8rem;
+    white-space: normal;
+    overflow: visible;
+    margin: 0;
+  }
+
+  .moviePage .movie-card p {
+    margin: 1rem 0 0 0;
+    font-size: 1.3rem;
+  }
+}
