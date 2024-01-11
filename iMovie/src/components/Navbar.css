@@ -12,9 +12,14 @@
   gap: 0.5rem;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
   #navbar {
-    margin: 1rem;
-    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+
+  #navbar .searchBar {
+    display: none;
   }
 }

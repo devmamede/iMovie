@@ -18,7 +18,7 @@ const SearchBar = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="searchBar" onSubmit={handleSubmit}>
       <input
         type="text"
         placeholder="Busque um filme"
