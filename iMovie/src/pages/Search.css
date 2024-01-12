@@ -1,0 +1,151 @@
+.SearchPage .container .title {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  margin: 2rem 0 1rem;
+}
+
+.SearchPage .title .query-text {
+  color: #ffd700;
+}
+
+.SearchPage .movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.SearchPage .movies-container div {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 50px;
+  padding: 0 0 10px 0;
+}
+
+.SearchPage .movies-container div img {
+  max-width: 100%;
+}
+
+.SearchPage .movies-container div img,
+.SearchPage .movies-container div p {
+  margin-bottom: 0.5rem;
+}
+
+.SearchPage .movies-container div svg {
+  color: #ffd700;
+}
+
+.SearchPage .movies-container div a {
+  background-color: #ffd700;
+  border: 2px solid #ffd700;
+  border-radius: 4px;
+  padding: 0.2rem;
+  color: black;
+  font-size: 1.5rem;
+  transition: 0.4s;
+  font-weight: bold;
+}
+
+.SearchPage .movies-container div a:hover {
+  background-color: transparent;
+  color: #ffd700;
+}
+
+.SearchPage footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 10rem;
+}
+
+.SearchPage .authorship {
+  margin-top: 1.5rem;
+}
+
+.SearchPage .authorship span {
+  color: #ffd700;
+}
+
+@media only screen and (max-width: 768px) {
+  body,
+  html {
+    max-height: 100vh;
+    max-width: 100vw;
+    overflow: hidden;
+    display: inline;
+  }
+
+  .searchPage .container {
+    display: inline-block;
+    max-height: 100vh;
+    max-width: 100vw;
+  }
+
+  .searchPage .container .title {
+    font-size: 1.5rem;
+  }
+
+  .searchPage .movies-container {
+    max-height: 100vh;
+    max-width: 100vw;
+    display: inline-block;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    overflow: scroll;
+    white-space: nowrap;
+  }
+
+  .searchPage .movies-container div {
+    background-color: transparent;
+    max-height: 100vh;
+    max-width: 100vw;
+    margin: 0 5px;
+    border-radius: 20px;
+  }
+
+  .searchPage .movies-container div:first-child {
+    margin-left: 0;
+  }
+
+  .searchPage .movies-container div:last-child {
+    margin-left: 0;
+  }
+
+  .searchPage .movies-container div img {
+    margin: 0;
+  }
+
+  .searchPage .movies-container div a {
+    background-color: #ffd700;
+    border: 2px solid #ffd700;
+    border-radius: 4px;
+    padding: 0.2rem;
+    color: black;
+    font-size: 16px;
+    transition: 0.4s;
+    font-weight: bold;
+  }
+
+  .searchPage footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 10rem;
+  }
+
+  .searchPage footer .searchBar {
+    font-size: large;
+  }
+
+  .searchPage footer h2 {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .searchPage .authorship {
+    margin-top: 1rem;
+  }
+}

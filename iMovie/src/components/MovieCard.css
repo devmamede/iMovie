@@ -43,4 +43,9 @@
   .movie-card p {
     font-size: 1rem;
   }
+
+  .searchPage .movie-card img {
+    height: auto;
+    width: 10rem;
+  }
 }
