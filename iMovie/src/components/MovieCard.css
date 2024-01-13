@@ -27,6 +27,7 @@
 @media only screen and (max-width: 768px) {
   .movie-card {
     height: 100%;
+    overflow: visible;
   }
 
   .movie-card h2 {
