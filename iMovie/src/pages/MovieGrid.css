@@ -6,7 +6,7 @@
 }
 
 .title .query-text {
-  color: #ffd700;
+  color: #9ff500;
 }
 
 .movies-container {
@@ -32,12 +32,12 @@
 }
 
 .movies-container div svg {
-  color: #ffd700;
+  color: #9ff500;
 }
 
 .movies-container div a {
-  background-color: #ffd700;
-  border: 2px solid #ffd700;
+  background-color: #9ff500;
+  border: 2px solid #9ff500;
   border-radius: 4px;
   padding: 0.2rem;
   color: black;
@@ -48,7 +48,7 @@
 
 .movies-container div a:hover {
   background-color: transparent;
-  color: #ffd700;
+  color: #9ff500;
 }
 
 footer {
@@ -64,7 +64,7 @@ footer {
 }
 
 .authorship span {
-  color: #ffd700;
+  color: #9ff500;
 }
 
 @media only screen and (max-width: 768px) {
@@ -119,8 +119,8 @@ footer {
   }
 
   .movies-container div a {
-    background-color: #ffd700;
-    border: 2px solid #ffd700;
+    background-color: #9ff500;
+    border: 2px solid #9ff500;
     border-radius: 4px;
     padding: 0.2rem;
     color: black;
